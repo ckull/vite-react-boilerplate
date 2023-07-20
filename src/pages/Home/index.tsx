@@ -1,7 +1,7 @@
-
+import Container from "./styled"
 const Home = () => {
   return (
-    <div>Home</div>
+    <Container className="flex bg-yellow-50">Home</Container>
   )
 }
 
