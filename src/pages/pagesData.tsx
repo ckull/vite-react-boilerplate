@@ -1,5 +1,5 @@
-import About from "./About";
-import Home from "./Home";  
+import About from "./About/loadable";
+import Home from "./Home/loadable";  
 
 
 const pagesData = [
