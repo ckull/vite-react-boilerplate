@@ -1,15 +1,12 @@
 
-import './App.scss'
-import Router from 'src/pages/router'
-import { BrowserRouter } from "react-router-dom";
+import Router from 'src/pages/router';
+import './App.scss';
 import Provider from './providers';
 
 function App() {
   return (
     <Provider>
-      <BrowserRouter>
-        <Router />
-      </BrowserRouter>
+      <Router />
     </Provider>
   )
 }

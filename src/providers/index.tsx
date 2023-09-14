@@ -4,7 +4,7 @@ import {
     QueryClient,
     QueryClientProvider,
 } from '@tanstack/react-query'
-
+import { BrowserRouter } from "react-router-dom"
 interface ProviderProps {
     children: React.ReactNode
 }
@@ -16,7 +16,9 @@ const Provider = ({ children }: ProviderProps) => {
         < >
             <QueryClientProvider client={queryClient}>
                 <ThemeProvider theme={theme}>
-                    {children}
+                    <BrowserRouter>
+                        {children}
+                    </BrowserRouter>
                 </ThemeProvider>
             </QueryClientProvider>
         </>
