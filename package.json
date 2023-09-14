@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "@loadable/component": "^5.15.3",
-    "@tanstack/react-query": "^4.29.25",
+    "@tanstack/react-query": "^4.35.3",
     "axios": "^1.4.0",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.0.0",
@@ -39,6 +39,8 @@
     "@typescript-eslint/parser": "^5.61.0",
     "@vitejs/plugin-react": "^4.0.1",
     "autoprefixer": "^10.4.14",
+    "babel-jest": "^29.7.0",
+    "babel-plugin-transform-vite-meta-env": "^1.0.3",
     "classnames": "^2.3.2",
     "eslint": "^8.44.0",
     "eslint-plugin-react-hooks": "^4.6.0",
